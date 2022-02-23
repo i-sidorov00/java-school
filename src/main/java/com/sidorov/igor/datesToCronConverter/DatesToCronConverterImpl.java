@@ -1,8 +1,10 @@
-package com.sidorov.igor;
+package com.sidorov.igor.datesToCronConverter;
+
+import com.sidorov.igor.util.Constants;
 
 import java.util.List;
 
-public class Realization implements DatesToCronConverter,Constants{
+public class DatesToCronConverterImpl implements DatesToCronConverter, Constants {
 
     @Override
     public String convert(List<String> list) {
