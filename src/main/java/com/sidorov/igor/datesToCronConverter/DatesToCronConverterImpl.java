@@ -8,6 +8,9 @@ public class DatesToCronConverterImpl implements DatesToCronConverter, Constants
 
     @Override
     public String convert(List<String> list) {
+    // У меня была идея, чтобы реализовать этот метод необходимо каждую дату из списка разбивать на месяца,дни,часы, минуты, секунды
+    //Добавлять это в массив и отдельно сравнивать кажыдй параметр, для определения зависимости и получения cron
+    //Но я не смог это реализовать, я хочу поступить в школу, чтобы овладеть навыками и в прололжить стажироваться и рабоать в Digital Design
         return null;
     }
 
